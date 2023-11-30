@@ -1,0 +1,37 @@
+/* AddPost.css */
+
+/* Center the form vertically and horizontally */
+.containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+/* Style the form elements */
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.post-img {
+  max-width: 300px;
+  max-height: 300px;
+  margin-top: 10px;
+}
+
+.post-submit {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
